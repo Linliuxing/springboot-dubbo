@@ -1,0 +1,19 @@
+server:
+    port: 8082
+spring:
+  dubbo:
+    application:
+      name: service-consumer
+    base-package: com.lin.service
+    registry:
+      address: 192.168.0.116
+      port: 2181
+      protocol: zookeeper
+      subscribe: true
+    protocol:
+      name: dubbo
+      host: 192.168.0.116
+    consumer:
+      timeout: 1000
+      check: false
+      retries: 2
