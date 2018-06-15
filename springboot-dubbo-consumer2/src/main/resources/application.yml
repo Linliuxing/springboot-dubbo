@@ -1,9 +1,9 @@
 server:
-    port: 8082
+    port: 8083
 spring:
   dubbo:
     application:
-      name: service-consumer
+      name: service-consumer2
     base-package: com.lin.service  # dubbo服务调用者所在的包
     registry:
       address: 192.168.0.116  # zookeeper注册中心的地址
