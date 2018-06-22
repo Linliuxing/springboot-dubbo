@@ -11,8 +11,11 @@
         <module name="springboot-dubbo-api" />
         <module name="springboot-dubbo-consumer" />
         <module name="springboot-dubbo-consumer2" />
+        <module name="springboot-dubbo-http" />
         <module name="springboot-dubbo-provider" />
         <module name="springboot-dubbo-provider2" />
+        <module name="springboot-dubbo-validation" />
+        <module name="springboot-validation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,8 +24,11 @@
       <module name="springboot-dubbo-api" target="1.8" />
       <module name="springboot-dubbo-consumer" target="1.8" />
       <module name="springboot-dubbo-consumer2" target="1.8" />
+      <module name="springboot-dubbo-http" target="1.8" />
       <module name="springboot-dubbo-provider" target="1.8" />
       <module name="springboot-dubbo-provider2" target="1.8" />
+      <module name="springboot-dubbo-validation" target="1.8" />
+      <module name="springboot-validation" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

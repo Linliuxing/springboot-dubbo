@@ -6,8 +6,10 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-dubbo-api/springboot-dubbo-api.iml" filepath="$PROJECT_DIR$/springboot-dubbo-api/springboot-dubbo-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-dubbo-consumer/springboot-dubbo-consumer.iml" filepath="$PROJECT_DIR$/springboot-dubbo-consumer/springboot-dubbo-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-dubbo-consumer2/springboot-dubbo-consumer2.iml" filepath="$PROJECT_DIR$/springboot-dubbo-consumer2/springboot-dubbo-consumer2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-dubbo-http/springboot-dubbo-http.iml" filepath="$PROJECT_DIR$/springboot-dubbo-http/springboot-dubbo-http.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-dubbo-provider/springboot-dubbo-provider.iml" filepath="$PROJECT_DIR$/springboot-dubbo-provider/springboot-dubbo-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-dubbo-provider2/springboot-dubbo-provider2.iml" filepath="$PROJECT_DIR$/springboot-dubbo-provider2/springboot-dubbo-provider2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-dubbo-validation/springboot-dubbo-validation.iml" filepath="$PROJECT_DIR$/springboot-dubbo-validation/springboot-dubbo-validation.iml" />
     </modules>
   </component>
 </project>
