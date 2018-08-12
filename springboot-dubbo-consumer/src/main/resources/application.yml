@@ -6,7 +6,7 @@ spring:
       name: service-consumer
     base-package: com.lin.service  # dubbo服务调用者所在的包
     registry:
-      address: 192.168.0.116  # zookeeper注册中心的地址
+      address: 192.168.0.184  # zookeeper注册中心的地址
       port: 2181              # zookeeper注册中心的端口
       protocol: zookeeper
       subscribe: true
@@ -16,4 +16,4 @@ spring:
     consumer:
       timeout: 1000
       check: false  # 服务启动时检查被调用服务是否可用
-      retries: 2    # 服务调用重试次数
+      retries: 2    # 服务调用重试次数84
