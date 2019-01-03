@@ -6,7 +6,7 @@ spring:
       name: service-consumer
     base-package: com.lin.service  # dubbo服务调用者所在的包
     registry:
-      address: 192.168.0.184  # zookeeper注册中心的地址
+      address: 172.16.1.160  # zookeeper注册中心的地址
       port: 2181              # zookeeper注册中心的端口
       protocol: zookeeper
       subscribe: true

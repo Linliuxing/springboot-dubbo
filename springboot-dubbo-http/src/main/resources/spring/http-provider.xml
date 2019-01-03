@@ -5,9 +5,9 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
        http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
 
-    <dubbo:application name="generic-generic"/>
+    <dubbo:application name="generic-provider"/>
 
-    <dubbo:registry address="zookeeper://192.168.0.116:2181"/>
+    <dubbo:registry address="zookeeper://172.16.1.160:2181"/>
 
     <dubbo:protocol name="http" port="8083" server="tomcat"/>
 
